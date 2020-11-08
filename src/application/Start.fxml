@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" style="-fx-background-color: #060f14;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <Label layoutX="22.0" layoutY="338.0" prefHeight="53.0" prefWidth="1008.0" text="Mnogo je neodoljivih destinacija u BIH koje trebamo posjetiti.." textFill="#7c6b8f">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Button fx:id="Pregledaj" layoutX="526.0" layoutY="418.0" mnemonicParsing="false" onAction="#More" style="-fx-background-color: #e47f34;" text="Pregledaj" textFill="#1b1b1b" />
+      <ImageView fitHeight="244.0" fitWidth="433.0" focusTraversable="true" layoutX="27.0" layoutY="36.0" mouseTransparent="true" opacity="0.81" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Images/5bd376aa5f8b2-wallpaper-preview.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

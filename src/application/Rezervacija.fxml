@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #4575b4;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ReservationController">
+   <children>
+      <Label layoutX="69.0" layoutY="52.0" text="Ime i prezime" textFill="#fcfafa" />
+      <Label layoutX="67.0" layoutY="97.0" text="Spol" textFill="#f5f5f5" />
+      <Label layoutX="62.0" layoutY="149.0" text="Destinacija" textFill="#f2f2f2" />
+      <Label layoutX="62.0" layoutY="209.0" prefHeight="17.0" prefWidth="59.0" text="Broj karti" textFill="#f5f2f2" />
+      <Label layoutX="62.0" layoutY="276.0" text="Broj telefona" textFill="#f8f4f4" />
+      <TextField fx:id="txtImeIPrezime" layoutX="201.0" layoutY="48.0" prefHeight="25.0" prefWidth="190.0" />
+      <TextField fx:id="txtDestinacija" layoutX="201.0" layoutY="145.0" prefHeight="25.0" prefWidth="190.0" />
+      <TextField fx:id="txtBrojKarti" layoutX="201.0" layoutY="205.0" prefHeight="25.0" prefWidth="190.0" />
+      <TextField fx:id="txtBrojTelefona" layoutX="201.0" layoutY="272.0" prefHeight="25.0" prefWidth="190.0" />
+      <RadioButton fx:id="rbnMan" layoutX="209.0" layoutY="97.0" mnemonicParsing="false" text="Muško" textFill="#f5ebeb" />
+      <RadioButton fx:id="rbnWoman" layoutX="319.0" layoutY="97.0" mnemonicParsing="false" text="Žensko" textFill="#f8f4f4" />
+      <Button fx:id="savereservation" layoutX="337.0" layoutY="338.0" mnemonicParsing="false" onAction="#SaveAction" style="-fx-background-color: #97c1fe;" text="Spremi" />
+      <Button fx:id="reservationinfo" layoutX="201.0" layoutY="338.0" mnemonicParsing="false" onAction="#ReserveInfo" style="-fx-background-color: #97c1fe;" text="Vidi rezervacije" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #97c1fe;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.WhereToController">
+   <children>
+      <ImageView fitHeight="99.0" fitWidth="178.0" layoutX="34.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Bosnia%20Where/Images/Bascarsija.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="126.0" fitWidth="178.0" layoutX="34.0" layoutY="182.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Bosnia%20Where/Images/Ostrozac.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="278.0" fitWidth="158.0" layoutX="230.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Bosnia%20Where/Images/Jajce.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="105.0" fitWidth="169.0" layoutX="406.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Bosnia%20Where/Images/Stari%20most.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="128.0" fitWidth="156.0" layoutX="410.0" layoutY="182.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Bosnia%20Where/Images/Jahorina.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="84.0" layoutY="142.0" text="Baščaršija" />
+      <Label layoutX="84.0" layoutY="315.0" text="Ostrožac" />
+      <Label layoutX="295.0" layoutY="315.0" text="Jajce" />
+      <Label layoutX="462.0" layoutY="151.0" text="Stari Most" />
+      <Label layoutX="461.0" layoutY="315.0" text="Jahorina" />
+      <Button fx:id="reservation" layoutX="282.0" layoutY="348.0" mnemonicParsing="false" onAction="#Reserve" style="-fx-background-color: #4575b4;" text="Rezervisi" />
+   </children>
+</AnchorPane>
